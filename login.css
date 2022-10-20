@@ -1,0 +1,145 @@
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: #161717;
+    color: white;
+}
+
+.botones{
+    
+    display: flex;
+    gap: 20px;
+}
+.google {
+    background-color: rgb(64, 67, 252);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+.google:hover {
+    opacity: 0.6;
+}
+
+.google span {
+    color: white;
+    padding: 15px;
+}
+
+.tw {
+    background-color: rgb(37, 201, 201);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+
+.tw span{
+    padding: 15px;
+    color: white;
+}
+
+.tw:hover{
+    opacity: 0.6;
+}
+
+.separador {
+    display: flex;
+    width: 500px;
+    gap: 15px;
+
+}
+
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid  rgb(235, 221, 203);
+
+}
+
+.separador span{
+    color: white;
+}
+
+.section-imputs {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    background-color: #212121;
+    border: none;
+    border-radius: 5px;
+    cursor: text;
+    outline: none;
+    padding: 5px;
+    color: black;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+input:hover{
+    background-color: #454045;
+    border: solid 1px rgb(245, 195, 203);
+    box-shadow: 0 0 4px rgb(245, 195, 203);
+}
+
+input:focus{
+    background-color: rgb(245, 195, 203);
+    border: solid 1px rgb(202, 202, 156);
+    box-shadow: 0 0 4px rgb(245, 195, 203);
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 15px;
+    cursor: pointer;
+}
+
+.checkbox-label span{
+    font-size: small;
+}
+
+.btnsubmit {
+    background-color: rgb(223, 106, 126);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnsubmit:hover{
+    background-color: rgb(224, 173, 182);
+}
