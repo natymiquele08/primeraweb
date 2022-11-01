@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <style>
+        .navbar-brand{
+            color: white;
+        }
+       
+        
+        
+    </style>
+</head>
+
+<body>
+    <nav id="navbar-example2" class="navbar bg-dark px-3 mb-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-info p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">First heading</h4>
+        <p> Cillum minim incididunt dolor sit incididunt labore consectetur commodo anim commodo. Ea laboris magna reprehenderit amet pariatur laboris exercitation ex nulla. Anim ut laboris est fugiat non aute ad adipisicing cupidatat. Ad sint ipsum enim est enim occaecat nulla commodo sunt sit anim deserunt.</p>
+        <h4 id="scrollspyHeading2">Second heading</h4>
+        <p> Ullamco elit veniam ea ad dolor ea ex. Cupidatat anim consequat sint dolore consectetur labore consectetur ad Lorem incididunt laborum ipsum cillum irure. Minim minim amet occaecat nisi culpa officia officia culpa aliquip incididunt ex. Nisi dolor elit nostrud aute aliquip irure culpa minim ipsum cupidatat deserunt qui exercitation. Elit reprehenderit enim ad anim eu dolor.</p>
+        <h4 id="scrollspyHeading3">Third heading</h4>
+        <p>Esse ipsum id eiusmod eiusmod proident ut voluptate ut et adipisicing. Exercitation nostrud deserunt veniam eu exercitation et ipsum deserunt esse aute id sunt. Lorem velit magna labore esse eu mollit amet cillum sunt non sunt ipsum proident.</p>
+        <h4 id="scrollspyHeading4">Fourth heading</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>...</p>
+      </div>
+      
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
