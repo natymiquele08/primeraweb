@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+   
+}
+
+.btn-modern:hover{
+    animation: mover 0.4s forwards;
+    
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+    100% {
+        transform: translateX(0%) translateY(-5px);
+        border-bottom: solid 4px rgb(95, 10, 175);
+        color: rgb(48, 47, 49);
+
+    }
+}
+
+
